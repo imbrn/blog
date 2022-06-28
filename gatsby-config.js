@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/blog',
   siteMetadata: {
     title: `imbrn personal blog post`,
     author: {
@@ -106,7 +107,7 @@ module.exports = {
               }
             `,
             output: '/rss.xml',
-            title: 'Gatsby Starter Blog RSS Feed',
+            title: 'imbrn Personal Blog RSS Feed',
           },
         ],
       },
@@ -114,8 +115,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `imbrn person blog`,
+        short_name: `imbrn blog`,
         start_url: `/`,
         background_color: `#ffffff`,
         // This will impact how browsers show your PWA/website
