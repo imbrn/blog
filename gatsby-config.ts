@@ -4,7 +4,6 @@ module.exports = {
     title: `imbrn personal blog post`,
     author: {
       name: `Bruno C.Couto`,
-      summary: `who lives and works in San Francisco building useful things.`,
       summary: `a software engineer passionate by good practices, patterns, principles.`,
     },
     description: `A blog designed to share my experience with software engeinnering.`,
